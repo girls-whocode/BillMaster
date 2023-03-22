@@ -6,9 +6,9 @@ An advanced Bill organizer with Pay down system. Although this is still a work i
 
 I was a government worker for 22 years, my primary job is a System Administrator and application developer, although I am only a Linux admin. So why did I choose MS Excel? I don't know... More tutorials, more templates, more functions, eh, whatever...
 
-So I got paid twice per month, and I got tired of remembering to pay my bills and it seemed like every weekend I was calculating stamping, and mailing all the bills out. So I made a simple spreadsheet with Libre Office, to put all of my bills in, opened a second checking account, and set up each bill to be auto pay. Getting paid semi-monthly, was pretty easy to know how much to put in the checking out each paycheck to make sure the bills were covered.
+So, I got paid twice per month, and I got tired of remembering to pay my bills and it seemed like every weekend I was calculating, stamping, and mailing all the bills out. So, I made a simple spreadsheet with Libre Office, to put all my bills in, opened a second checking account, and set up each bill to auto pay. Getting paid semi-monthly, it was easy to know how much to put in the checking on each paycheck to make sure the bills were covered.
 
-Then... I left the government job and started working for a company that pays every other week, this started to get really confusing since twice a year I got paid three times per month, and many checks would have to cover the next month's bills until my first check for the month. It was hard to keep track of. This is where my new version would take the bill date, and assign an amount for each check, no matter where it fell into the month.
+Then... I left the government job and started working for a company that pays every other week, this started to get really confusing since twice a year I got paid three times per month, and many checks would have to cover the next month's bills until my first check for the month. It was hard to keep track of. This is where my latest version would take the bill date, and assign an amount for each check, no matter where it fell into the month. Hence my version of BillMaster v1.0. I am not asking for any money, I am not spying on anyone's account information, this is just me learning, and hopefully making something that will work.
 
 ## Prerequisites
 
