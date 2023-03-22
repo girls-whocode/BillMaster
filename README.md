@@ -12,7 +12,9 @@ Then... I left the government job and started working for a company that pays ev
 
 ## Prerequisites
 
-First and foremost, this script uses VBA and 1 macro, on all versions of Excel, when VBA or Macros are used, a warning will appear at the top of the screen. This template uses VBA for the creation of a new account by copying a template, then changing the Data Index to add the new Bill. The VBA code is:
+First and foremost, due to Dynamic Tables, and other new features of Microsoft Office 365, this requires Excel 365. 
+
+This script is a macro based Excel workbook that uses currently 1 VBA script and 1 macro. On all versions of Excel, when VBA scripts or macros are used, a warning will appear at the top of the screen. This workbook requires this use. The workbook uses VBA for the creation of a new account by copying a template, then changing the Data Index to add the new Bill. The VBA code is:
 
 ```vb
 Private Sub CommandButton1_Click()
@@ -91,11 +93,15 @@ Private Sub CommandButton1_Click()
 End Sub
 ```
 
+It also uses a macro to update the "Updated" box on each account page.
+
 ## To start
 
 BillMaster has been designed for people without Excel or computer experience to be able to create, modify, and use almost all features of this system. Open the file with Microsoft Excel Office 365 or newer. 
 
 NOTE: This system uses dynamic tables that was added in Office 365.
+
+## To use
 
 Once BillMaster has been opened and you accepted the Warning, you should see a screen like this:
 
@@ -103,13 +109,13 @@ Once BillMaster has been opened and you accepted the Warning, you should see a s
 
 This is the overall Dashboard to give you a quick glance at all bills due, upcoming bills, largest interest, smallest balance, and many other items.
 
-## Entering Income
+### Entering Income
 
 ![Alt text](documents/images/Income-Required.JPG)
 
 The first step would be to go to the Income Tab, here you need to enter a minimum of the first payday (I would recommend just starting with this year), for example. Jan 6, 2013 was my first paydate for the year and the pay interator, which I get paid every 14 days. Once that is done, it will populate all of the dates. The next step is to enter your gross pay. If you do not wish to enter all of your tax data, just enter you net pay in the gross pay column. Since I am salary, my checks are 95% the same, so I just copy all of the data down the columns.
 
-## Entering Accounts
+### Entering Accounts
 
 Once this has been completed, now head over to the Dashboard Tab and we can start entering accounts.
 
@@ -119,19 +125,19 @@ To add a new account, click on the plus (+) in the account bar. When you click o
 
 There are 4 types of accounts, Credit Accounts, Bill Accounts, Investment Accounts, and Cash Accounts.
 
-### Credit Accounts
+#### Credit Accounts
 
 This type of account will have an end date, and may or may not have interest. Some examples of credit accounts are Car Loans, Credit Cards, and other types of loans.
 
-### Bill Accounts
+#### Bill Accounts
 
 This type of account will not have an end date, and will not have interest. Some examples of bill accounts are Electric, Water, Trash, and Rent
 
-### Investment Accounts
+#### Investment Accounts
 
 This type of account will have a positive amount, and will does not have an end date. I have not done much on this section, but will be adding other items, such as interest, and returns.
 
-### Cash Accounts
+#### Cash Accounts
 
 This type of account will be cash on hand. I have a safe with usually a hundred or two in it for emergancys. This account does not have interest, and will be a positive number.
 
