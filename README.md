@@ -1,6 +1,6 @@
 # BillMaster
 
-An advanced Bill organizer with Pay down system. Although this is still a work in progress, almost all features are working. There are a few bugs that I will be working out over time. If you would like to see the current bugs, please look at the issues section and use the bugs filter. What is important to understand, there is noting in this worksheet that sends any data to me, or any server that I can see. I guess Microsoft may have your data if it is on OneDrive.
+An advanced Bill organizer with Pay down system. Although this is still a work in progress, almost all features are working. There are a few bugs that I will be working out over time. If you would like to see the current bugs, please look at the [issues](https://github.com/girls-whocode/BillMaster/labels/bug) section and use the bugs filter. What is important to understand, there is noting in this worksheet that sends any data to me, or any server that I can see. I guess Microsoft may have your data if it is on OneDrive.
 
 ## How this started
 
