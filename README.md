@@ -141,3 +141,10 @@ This type of account will have a positive amount, and will does not have an end 
 
 This type of account will be cash on hand. I have a safe with usually a hundred or two in it for emergancys. This account does not have interest, and will be a positive number.
 
+## Entering data on a new account
+
+![Alt text](documents/images/Account-Screen.JPG)
+
+Once you create a new account, it will take you to the account screen to start entering data. Everything in the light blue is able to be edited, and the more information you add, the easier it will be to gather information when you need it. The only items that are required is the Interest Rate, Due Date, Payment amount, and the balance ledger on the right side of the screen. The workbook will be able to calculate everything from those values.
+
+The house icon will take you back to the dashboard.
