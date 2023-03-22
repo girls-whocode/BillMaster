@@ -1,6 +1,6 @@
 # BillMaster
 
-An advanced Bill organizer with Pay down system. Although this is still a work in progress, almost all features are working. There are a few bugs that I will be working out over time. If you would like to see the current bugs, please look at the issues section and use the bugs filter.
+An advanced Bill organizer with Pay down system. Although this is still a work in progress, almost all features are working. There are a few bugs that I will be working out over time. If you would like to see the current bugs, please look at the issues section and use the bugs filter. What is important to understand, there is noting in this worksheet that sends any data to me, or any server that I can see. I guess Microsoft may have your data if it is on OneDrive.
 
 ## How this started
 
@@ -103,6 +103,16 @@ Once BillMaster has been opened and you accepted the Warning, you should see a s
 
 This is the overall Dashboard to give you a quick glance at all bills due, upcoming bills, largest interest, smallest balance, and many other items.
 
+## Entering Income
+
+![Alt text](documents/images/Income-Required.JPG)
+
+The first step would be to go to the Income Tab, here you need to enter a minimum of the first payday (I would recommend just starting with this year), for example. Jan 6, 2013 was my first paydate for the year and the pay interator, which I get paid every 14 days. Once that is done, it will populate all of the dates. The next step is to enter your gross pay. If you do not wish to enter all of your tax data, just enter you net pay in the gross pay column. Since I am salary, my checks are 95% the same, so I just copy all of the data down the columns.
+
+## Entering Accounts
+
+Once this has been completed, now head over to the Dashboard Tab and we can start entering accounts.
+
 To add a new account, click on the plus (+) in the account bar. When you click on the (+), it will add a new account depending on which account list you are viewing.
 
 ![Alt text](documents/images/Account-List.JPG)
@@ -124,3 +134,4 @@ This type of account will have a positive amount, and will does not have an end 
 ### Cash Accounts
 
 This type of account will be cash on hand. I have a safe with usually a hundred or two in it for emergancys. This account does not have interest, and will be a positive number.
+
