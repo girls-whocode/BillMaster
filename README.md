@@ -2,8 +2,17 @@
 
 An advanced Bill organizer with Pay down system. Although this is still a work in progress, almost all features are working. There are a few bugs that I will be working out over time. If you would like to see the current bugs, please look at the issues section and use the bugs filter.
 
+## How this started
+
+I was a government worker for 22 years, my primary job is a System Administrator and application developer, although I am only a Linux admin. So why did I choose MS Excel? I don't know... More tutorials, more templates, more functions, eh, whatever...
+
+So I got paid twice per month, and I got tired of remembering to pay my bills and it seemed like every weekend I was calculating stamping, and mailing all the bills out. So I made a simple spreadsheet with Libre Office, to put all of my bills in, opened a second checking account, and set up each bill to be auto pay. Getting paid semi-monthly, was pretty easy to know how much to put in the checking out each paycheck to make sure the bills were covered.
+
+Then... I left the government job and started working for a company that pays every other week, this started to get really confusing since twice a year I got paid three times per month, and many checks would have to cover the next month's bills until my first check for the month. It was hard to keep track of. This is where my new version would take the bill date, and assign an amount for each check, no matter where it fell into the month.
+
 ## Prerequisites
-First and foremost, this script uses VBA, on all versions of Excel, when VBA or Macros are used, a warning will appear at the top of the screen. This template uses VBA for the creation of a new account by copying a template, then changing the Data Index to add the new Bill. The VBA code is:
+
+First and foremost, this script uses VBA and 1 macro, on all versions of Excel, when VBA or Macros are used, a warning will appear at the top of the screen. This template uses VBA for the creation of a new account by copying a template, then changing the Data Index to add the new Bill. The VBA code is:
 
 ```vb
 Private Sub CommandButton1_Click()
@@ -87,3 +96,31 @@ End Sub
 BillMaster has been designed for people without Excel or computer experience to be able to create, modify, and use almost all features of this system. Open the file with Microsoft Excel Office 365 or newer. 
 
 NOTE: This system uses dynamic tables that was added in Office 365.
+
+Once BillMaster has been opened and you accepted the Warning, you should see a screen like this:
+
+![Dashboard](documents/images/Dashboard-Full.JPG)
+
+This is the overall Dashboard to give you a quick glance at all bills due, upcoming bills, largest interest, smallest balance, and many other items.
+
+To add a new account, click on the plus (+) in the account bar. When you click on the (+), it will add a new account depending on which account list you are viewing.
+
+![Alt text](documents/images/Account-List.JPG)
+
+There are 4 types of accounts, Credit Accounts, Bill Accounts, Investment Accounts, and Cash Accounts.
+
+### Credit Accounts
+
+This type of account will have an end date, and may or may not have interest. Some examples of credit accounts are Car Loans, Credit Cards, and other types of loans.
+
+### Bill Accounts
+
+This type of account will not have an end date, and will not have interest. Some examples of bill accounts are Electric, Water, Trash, and Rent
+
+### Investment Accounts
+
+This type of account will have a positive amount, and will does not have an end date. I have not done much on this section, but will be adding other items, such as interest, and returns.
+
+### Cash Accounts
+
+This type of account will be cash on hand. I have a safe with usually a hundred or two in it for emergancys. This account does not have interest, and will be a positive number.
